@@ -1,0 +1,69 @@
+
+
+.wrapper {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  width:auto
+}
+
+.row-flex-wrapper {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.stats-input-wrapper {
+
+}
+
+.stats-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  border: 1px solid black;
+}
+
+.info-input {
+font-size: 20px;
+margin: 15px;
+}
+
+.char-info {
+font-size: 25px;
+margin-left: 50px;
+margin: 30px;
+}
+
+.stats-input {
+  margin: 30px;
+  margin-left: 10px;
+  width: 200px;
+}
+
+.stats {
+height: 30px;
+width: 30px;
+border: 1px solid black;
+font-size: 25px;
+margin: 24px;
+
+}
+
+.lang-wrapper {
+
+  width: 800px;
+  margin: 30px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.languages {
+  margin: 30px;
+  font-size: 25px;
+
+}
