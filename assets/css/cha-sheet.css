@@ -1,13 +1,20 @@
-
+.background {
+  border: 5px solid white;
+  background-color: black;
+  height:100%;
+  width:100%;
+}
 
 .wrapper {
-  border: 1px solid black;
+  border: 5px solid white;
   display: flex;
   flex-direction: column;
   margin: 30px;
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
-  width:auto
+  width:auto;
+  height:auto;
+  color: white;
 }
 
 .row-flex-wrapper {
@@ -17,14 +24,13 @@
 }
 
 .stats-input-wrapper {
-
 }
 
 .stats-wrapper {
   display: flex;
   flex-direction: column;
   margin: 30px;
-  border: 1px solid black;
+  /* border: 1px solid white; */
 }
 
 .info-input {
@@ -39,17 +45,23 @@ margin: 30px;
 }
 
 .stats-input {
+  border: none;
   margin: 30px;
-  margin-left: 10px;
+  margin-left: 20px;
   width: 200px;
+
 }
 
 .stats {
 height: 30px;
 width: 30px;
-border: 1px solid black;
-font-size: 25px;
-margin: 24px;
+border: 1px solid white;
+font-size: 20px;
+margin: 14px;
+margin-left: 40px;
+padding: 10px;
+color: white;
+font-family: 'Press Start 2P', cursive;
 
 }
 
@@ -60,10 +72,29 @@ margin: 24px;
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
   border: 1px solid black;
+  color:white;
+  border: 1px solid white;
+  padding: 10px;
 }
 
 .languages {
   margin: 30px;
   font-size: 25px;
+
+}
+
+
+.stats-input span img {
+  width: 40px;
+  height: 40px;
+  display:flex;
+  flex-direction: row
+}
+
+.about {
+  border: 1px solid white;
+  font-family: 'Press Start 2P', cursive;
+  color:white;
+  padding: 10px
 
 }
