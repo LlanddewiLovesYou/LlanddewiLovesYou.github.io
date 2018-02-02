@@ -1,0 +1,115 @@
+.container {
+  width: 99vw;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "character-info character-info character-info character-info"
+      "stats stats languages languages"
+      "stats stats skills skills";
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  background-color: black;
+  border: 5px solid white;
+  padding: 5px;
+
+}
+
+body  {
+  background-color: black;
+  display: inline-block;
+}
+
+
+.character-info {
+  border:3px solid white;
+  grid-area: character-info;
+}
+
+p {
+margin-left: 30px;
+}
+
+.character-info p span {
+  font-size: 20px;
+}
+
+.stats-labels {
+  /* border:1px solid white; */
+  margin: 30px
+
+}
+
+.stats-labels p {
+  margin-bottom: 48px;
+}
+
+.stats {
+  border:1px solid white;
+  grid-area: stats;
+  display: flex;
+  flex-direction: row;
+  /* margin:15px; */
+}
+
+.stats-numbers p {
+  border:1px solid white;
+  /* grid-area: stats-label; */
+  padding-top: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+}
+
+.languages {
+  border:1px solid white;
+  grid-area: languages;
+}
+
+.skills {
+  border:1px solid white;
+  grid-area: skills;
+
+}
+
+#last-stat {
+  margin-bottom: 24px;
+}
+
+.head {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+
+
+ .character-info {
+  /* display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 5;
+  border: 1px solid white;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 2;
+  grid-column-end:3;  */
+}
+
+p:nth-child(odd) {
+  /* background-color: grey; */
+}
+
+.character-info p {
+  /* font-size: 20px;
+  margin-left: 20px; */
+  /* grid-column-start: 1; */
+  /* grid-row-start: */
+
+}
+
+.character-info p span {
+/* font-size: 25px; */
+}
