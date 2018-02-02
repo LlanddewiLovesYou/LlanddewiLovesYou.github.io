@@ -2,12 +2,12 @@
   width: 99vw;
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     grid-template-areas:
-      "character-info character-info character-info character-info"
-      "stats stats languages languages"
-      "stats stats skills skills";
+      "character-info character-info character-info"
+      "stats languages languages"
+      "stats skills skills";
   font-family: 'Press Start 2P', cursive;
   color: white;
   background-color: black;
