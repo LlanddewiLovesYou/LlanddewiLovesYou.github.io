@@ -2,12 +2,14 @@
   width: 99vw;
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     grid-template-areas:
-      "character-info character-info character-info"
-      "stats languages languages"
-      "stats skills skills";
+      "character-info character-info character-info character-info"
+      "about about about about"
+      "stats stats skills skills"
+      "stats stats languages languages"
+      "stats stats languages languages";
   font-family: 'Press Start 2P', cursive;
   color: white;
   background-color: black;
@@ -18,7 +20,7 @@
 
 body  {
   background-color: black;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 
@@ -38,11 +40,13 @@ margin-left: 30px;
 .stats-labels {
   /* border:1px solid white; */
   margin: 30px
+  margin-left: 0px;
 
 }
 
 .stats-labels p {
-  margin-bottom: 48px;
+  margin-bottom: 52px;
+  margin-top: 30px;
 }
 
 .stats {
@@ -112,4 +116,19 @@ p:nth-child(odd) {
 
 .character-info p span {
 /* font-size: 25px; */
+}
+
+p img {
+  height: 60px;
+  width: 60px;
+}
+.small{
+  height: 100px;
+  width: 100px;
+}
+
+.about {
+  grid-area: about;
+  width: 100%;
+  border: 1px solid white;
 }
